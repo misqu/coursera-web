@@ -2,64 +2,32 @@
 <html>
 <head>
 	<title>Assignment Solution for Module 2</title>
-	<style>
-		p {
-			border: 1px solid black;
-			background-color: lightgrey;
-			margin-right: auto;
-			margin-left: auto;
-		}
-
-		@media (min-width: 992px) {
-			.col-lg-4 {
-				float: left;
-			}
-			.col-lg-4 {
-				width: 33.33%;
-			}
-		}
-
-		@media (min-width: 768px) and (max-width: 991px) {
-			.col-md-6, .col-md-12 {
-				float: left;
- 			}
-			.col-md-6 {
-				width: 50%;
-			}
-			.col-md-12 {
-				width: 100%;
-			}
-		}
-
-		@media (max-width: 767px) {
-			.col-sm-12 {
-				float: left;
-			}
-			.col-sm-12 {
-				width: 100%;
-			}
-		}
-
-	</style>
+	<link rel="stylesheet" href="css/styles.css" >
 </head>
 <body>
 
-<h1>Our Menu</h1>
+	<h1>Our Menu</h1>
 
-<div class="row">
-	<div class="col-lg-4 col-md-6 col-sm-12">
-		<p>Chicken</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	<div>
+		<div class="col-lg-4 col-md-6 col-sm-12">
+			<div id="chicken" class="dish">
+				<p class ="title">Chicken</p>
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-12">
+			<div id="beef" class="dish">
+				<p class="title">Beef</p>
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-12 col-sm-12">
+			<div id="sushi" class="dish">
+				<p class="title">Sushi</p>
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</div>
 	</div>
-	<div class="col-lg-4 col-md-6 col-sm-12">
-		<p>Beef</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	</div>
-	<div class="col-lg-4 col-md-12 col-sm-12">
-		<p>Sushi</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	</div>
-</div>
 
 </body>
 </html>
