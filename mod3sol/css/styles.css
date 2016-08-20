@@ -1,10 +1,16 @@
-.container-fluid {
-	background-color: pink;
+.navbar {
+	background-color: green;
 }
 
-.menu { padding-top: 50px; }
+.navbar-default .navbar-brand {
+    color: yellow;
+}
 
-.container {
+.navbar-default .navbar-nav li a {
+	color: yellow;
+}
+
+.container-fluid {
 	box-sizing: border-box;
 	margin: 20px;
 	padding: 10px;
